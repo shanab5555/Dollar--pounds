@@ -9,18 +9,23 @@ body{
 
 h1{
 
-    color: #237a73;
+ 
     margin: 5% 0% 0%;
     font-size: 58px;
     font-weight: 900;
+    opacity: .7;
+    
 }
 
 
 input{
-    border-radius: 20px;
-    opacity: .7;
-    
+    border: 2px solid rgb(190, 188, 183);
+    padding: 1% 42%;
+    margin: 3% 0%;
+    border-radius: 30px;
+
 }
+
 
 h2{
     opacity: .5;
@@ -35,7 +40,7 @@ h2{
 @media only screen and (max-width:500px){
     body{
         
-        height:845px;
+        height:844px;
         background-position: center;
     }
 
@@ -45,9 +50,7 @@ h2{
     }
     
     input{
-        
-        width: 92%;
-        height: 50%;        
+        padding: 3% 26%;     
     }
 
     h2{
