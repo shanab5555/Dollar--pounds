@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/A_modern_sleek_background_for_a_currency_conversion_app_featuring_the_US_dollar_and_Egyptian_pound_symbols_The_design_should_include_abstract_geometric_shapes_and_gradients_in_green_and_blue_tones_conveying_a_sense_of.png);
+    background-size: cover;
+}
+
+h1{
+
+    color: #237a73;
+    margin: 5% 0% 0%;
+    font-size: 58px;
+    font-weight: 900;
+}
+
+
+input{
+    border-radius: 20px;
+    opacity: .7;
+    
+}
+
+h2{
+    opacity: .5;
+    margin: 8% 7% 5%; 
+    color: rgb(6, 56, 56);
+    background-color: aquamarine;
+    border-radius: 30px;
+    padding: 3% 0%;
+    font-size: 25px;
+}
+
+@media only screen and (max-width:500px){
+    body{
+        
+        height:845px;
+    }
+    h1{
+        font-size: 50px;
+        line-height: 79px;
+    }
+    
+    input{
+        
+        width: 92%;
+        height: 50%;        
+    }
+
+    h2{
+        font-size: 16px;
+    }
+}
