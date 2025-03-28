@@ -4,7 +4,7 @@ body{
     background:url(../assign/41_2024-638408435921035474-103.jpg);
     background-size: cover;
     backdrop-filter: blur(4px);
-    height: 765px;    
+    height: 780px;    
 }
 
 h1{
@@ -23,7 +23,7 @@ input{
     padding: 1% 42%;
     margin: 3% 0%;
     border-radius: 30px;
-
+    text-align: center;
 }
 
 
@@ -40,7 +40,7 @@ h2{
 @media only screen and (max-width:500px){
     body{
         
-        height:844px;
+        height:860px;
         background-position: center;
     }
 
