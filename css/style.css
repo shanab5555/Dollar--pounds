@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(../assign/41_2024-638408435921035474-103.jpg);
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    height: 765px;    
+}
+
+h1{
+
+    color: #237a73;
+    margin: 5% 0% 0%;
+    font-size: 58px;
+    font-weight: 900;
+}
+
+
+input{
+    border-radius: 20px;
+    opacity: .7;
+    
+}
+
+h2{
+    opacity: .5;
+    margin: 8% 7% 5%; 
+    color: rgb(6, 56, 56);
+    background-color: aquamarine;
+    border-radius: 30px;
+    padding: 3% 0%;
+    font-size: 25px;
+}
+
+@media only screen and (max-width:500px){
+    body{
+        
+        height:845px;
+        background-position: center;
+    }
+
+    h1{
+        font-size: 50px;
+        line-height: 79px;
+    }
+    
+    input{
+        
+        width: 92%;
+        height: 50%;        
+    }
+
+    h2{
+        font-size: 16px;
+    }
+}
